@@ -1,0 +1,50 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 60vh;
+  background: hsl(342, 100%, 98%);
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+
+  .card {
+    flex: 1 1 clamp(45ch, 33%, 65ch);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 80px;
+
+    * {
+      padding: 30px 0;
+    }
+
+    &-logo {
+      width: 50px;
+    }
+
+    .title {
+      color: $headerColor;
+      font-size: 18px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+      line-height: 1.6;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 20px;
+      font-family: $workSans;
+      font-weight: 400;
+      line-height: 1.334;
+      color: $pColor;
+    }
+  }
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: hsl(342, 100%, 98%);
+}

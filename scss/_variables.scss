@@ -1,0 +1,15 @@
+//* Colors
+
+$headerColor: hsl(240, 2%, 16%);
+$white: hsl(0, 0%, 100%);
+$dirtyWhite: rgba(255, 255, 255, 0.87);
+$buttonPink: hsl(345, 100%, 60%);
+$fontBlack: hsl(0, 2%, 13%);
+$formColor: hsl(33, 100%, 72%);
+$pColor: hsl(209, 31%, 37%);
+
+//*Font-families
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Work+Sans&display=swap");
+
+$robotoCondensed: "Roboto Condensed", sans-serif;
+$workSans: "Work Sans", sans-serif;

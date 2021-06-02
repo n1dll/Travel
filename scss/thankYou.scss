@@ -1,0 +1,39 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  * {
+    padding: 2rem;
+  }
+}
+
+h1 {
+  font-size: 62px;
+  font-family: $robotoCondensed;
+  letter-spacing: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: $workSans;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}

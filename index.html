@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>One Pirat</title>
+    <script defer src="./js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#">OnePirat</a>
+      <div class="signs">
+        <a href="./signIn.html" class="sign-in">Sign In</a>
+        <a href="./signUp.html" class="sign-up">Sign Up</a>
+      </div>
+    </header>
+    <main>
+      <h1>Upgrade your Sundays</h1>
+      <p>
+        Enjoy secret offers up to -70% off the best luxury hotels every Sunday.
+      </p>
+      <a class="button" href="./signUp.html">Register</a>
+      <p class="discover">Discover the experience</p>
+      <a href="#cards" class="arrow"><img src="./images/arrow.svg"  alt="image"  /></a>
+    </main>
+    
+    <section class="cards" id="cards">
+      <div class="card">
+        <img src="../images/sun1.svg" alt="" class="card-logo" />
+        <h3 class="title">THE BEST LUXURY HOTELS</h3>
+        <p>
+          From the latest trendy boutique hotel to the iconic palace with XXL
+          pool, go for a mini-vacation just a few subway stops away from your
+          home.
+        </p>
+      </div>
+      <div class="card">
+        <img src="../images/wheel.svg" alt="" class="card-logo" />
+        <h3 class="title">NEW EXPERIENCES</h3>
+        <p>
+          Privatize a pool, take a Japanese bath or wake up in 900m2 of garden…
+          your Sundays will not be alike.
+        </p>
+      </div>
+      <div class="card">
+        <img src="../images/wallet.svg" alt="" class="card-logo" />
+        <h3 class="title">EXCLUSIVE RATES</h3>
+        <p>
+          By registering, you will access specially negotiated rates that you
+          will not find anywhere else.
+        </p>
+      </div>
+    </section>
+
+    <section class="tastes">
+      <h1 class="how" >FOR ALL TASTES AND DESIRES</h1>
+      <div class="container">
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/tour.jpg"
+                alt="Tour"
+              />
+            </div>
+            <div class="text">Tour</div>
+          </div>
+        </div>
+        <div class="gallery-container" >
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/massage.jpg"
+                alt="Massage"
+              />
+            </div>
+            <div class="text">Massage</div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/hiking.jpg"
+                alt="Hiking"
+              />
+            </div>
+            <div class="text">Hiking</div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/gastronomy.jpg"
+                alt="Gastronomy"
+              />
+            </div>
+            <div class="text">Gastronomy</div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/shopping.jpg"
+                alt="Shopping"
+              />
+            </div>
+            <div class="text">Shopping</div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/walking.jpg"
+                alt="Walking"
+              />
+            </div>
+            <div class="text">Walking</div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/fitness.jpg"
+                alt="Fitness"
+              />
+            </div>
+            <div class="text">Fitness</div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/reading.jpg"
+                alt="Reading"
+              />
+            </div>
+            <div class="text">Reading</div>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <img
+                src="./images/snorkeling.jpg"
+                alt="Snorkeling"
+              />
+            </div>
+            <div class="text">Snorkeling</div>
+          </div>
+        </div>
+    </section>
+
+    <h1 class="how">How it works</h1>
+    <section class="cards">
+      <div class="card">
+          <img src="./images/hammer.svg" class="card-logo">
+          <p>Appointment every Wednesday 9am.
+          </p>
+      </div>
+      <div class="card">
+          <img src="./images/discount.svg" class="card-logo">
+          <p>First come, first served. Our offers are in limited quantities, so be quick.
+          </p>
+      </div>
+      <div class="card">
+          <img src="./images/loud-speaker.svg" class="card-logo">
+          <p>New offers every week. New experiences, new surprises. Your Sundays will no longer be alike.
+          </p>
+      </div>      
+    </section>
+    <div class='btn-container'>
+      <a class="button" href="./signUp.html">Register</a>
+    </div>
+
+    <section  id="offers">
+      <div>
+        <div class="offers-container">
+            <form class="input-container" action="https://formsubmit.co/ngeorgiev89@outlook.com" method="POST">
+              <h2>Recieve Offers</h2>
+              <p>Taste the holidays of the every close to home.</p>
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+              <input id="email" type="email" name="email" placeholder="Your email" required>
+              <span id="msg"></span>
+              <button type="submit" class="button3">Keep me updated</button>
+            </form>
+            <div class="img-container">
+              <img src="./images/hotel.jpg" id="hotel">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <h3>OnePirate</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugiat! Voluptates mollitia vero fugit numquam!</p>
+        <ul>
+             <li><a href="#"><img class="pic" src="./images/facebook.svg" alt=""></a></li>
+             <li><a href="#"><img class="pic" src="./images/twitter.svg" alt=""></a></li>
+             <li><a href="#"><img class="pic" src="./images/youtube.svg" alt=""></a></li>
+        </ul>
+ 
+      </div>
+      <div class="fb">
+        <p>copyright &copy;2021 OnePirat. designed by <span>ng</span></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/loginForms.css" />
+    <script defer src="./js/loginForms.js"></script>
+
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3>Sign In</h3>
+        <fieldset>
+          <input
+            placeholder="Username"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input placeholder="Password" type="password" tabindex="3" required />
+        </fieldset>
+
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Login
+          </button>
+        </fieldset>
+        <p class="message">
+          Not registered? <a href="./signUp.html">Create an account</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

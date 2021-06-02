@@ -1,0 +1,41 @@
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: $headerColor;
+  color: $white;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: $robotoCondensed;
+  padding: 2em;
+  z-index: 900;
+
+  > a {
+    color: $white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+
+.signs {
+  margin-left: 24px;
+  a {
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}
+
+.sign-up {
+  color: hsl(351, 100%, 60%);
+}
+
+.sign-in {
+  color: $white;
+}

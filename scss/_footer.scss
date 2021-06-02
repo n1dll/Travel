@@ -1,0 +1,68 @@
+@import "./variables";
+
+footer {
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  color: $white;
+  background-color: $headerColor;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    > p {
+      font-family: $workSans;
+      text-align: center;
+    }
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+
+  li {
+    margin: 0 10px;
+  }
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: $robotoCondensed;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.fb {
+  position: absolute;
+  bottom: 0;
+  background: #222;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+
+  p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    font-family: $workSans;
+  }
+
+  span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 400;
+  }
+}
+
+.pic {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}

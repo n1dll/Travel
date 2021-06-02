@@ -1,0 +1,92 @@
+@import "./variables";
+
+#offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    width: 80%;
+  }
+
+  margin: 3em 0;
+}
+
+.offers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 500px;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 0;
+  overflow: hidden;
+}
+
+.input-container {
+  background-color: #ffc071;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  font-family: $workSans;
+
+  * {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 60px;
+    font-family: $robotoCondensed;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $workSans;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  input {
+    padding: 16px 10px;
+    width: 100%;
+    font-family: $workSans;
+    font-weight: 400;
+    border: none;
+  }
+
+  button {
+    font-weight: 700;
+    font-family: $robotoCondensed;
+    color: $white;
+    border: none;
+    width: 100%;
+    background: #222;
+    padding: 16px 0;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+}
+
+#hotel {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .img-container {
+    display: none;
+  }
+}
